@@ -6,6 +6,8 @@ Projeto de conclusão do curso [BI-MASTER](https://ica.puc-rio.ai/bi-master/) e 
 
 **Orientadora**: Professora Evelyn Conceição
 
+* [Link para o código]
+
 ## Objetivo
 
 Utilização de modelos de inteligência artificial pré-treinados como alternativa para predição de diagnóstico em exames de imagem. 
