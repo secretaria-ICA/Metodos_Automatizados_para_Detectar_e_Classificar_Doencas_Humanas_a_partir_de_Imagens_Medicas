@@ -31,10 +31,11 @@ O dataset é composto por imagens de Tomografia de Coerência Óptica da Retina 
 
 ## Solução do Problema
 
-Este trabalho baseou-se na API Keras para a construção da rede neural e inferência dos diagnósticos.
+Este trabalho baseou-se na API Keras para a construção da rede neural e no módulo scikit-learn para validação do treinamento do modelo
 
 ### Técnicas utilizadas 
 
-* Data Augmentation para aumento da quantidade de dados, adicionando cópias ligeiramente modificadas de dados já existentes ou dados sintéticos recém-criados a partir de dados existentes
-* Rede neural Xception pré-treinada com a base de dados "imageNet"
-* Callbacks para evitar o sobretreino da rede (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint)
+* Data Augmentation - aumento da quantidade de dados, adicionando cópias ligeiramente modificadas de dados já existentes ou dados sintéticos recém-criados a partir de dados existentes.
+* Transfer Learning - RNN Xception pré-treinada com a base de dados "imageNet".
+* Callbacks - evitar o sobretreino da rede (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint)
+* Stratified K-Fold cross validation - As partições são feitas preservando a porcentagem de amostras para cada classe. Utilizada para validação do modelo final.
