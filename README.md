@@ -36,7 +36,7 @@ Este trabalho baseou-se na API Keras para a construção da rede neural e no mó
 ### Técnicas utilizadas 
 
 * Data Augmentation - Aumento da quantidade de dados, adicionando cópias ligeiramente modificadas de dados já existentes ou dados sintéticos recém-criados a partir de dados existentes.
-* Transfer Learning - RNN Xception pré-treinada com a base de dados "imageNet". Foram feitos testes utilizando as RNN VGG16 e EfficientNet B0 a B7 com resultados inferiores.
+* Transfer Learning - RNN Xception pré-treinada com a base de dados "imageNet". Foram feitos testes utilizando as RNN VGG16 e EfficientNet B0 a B7, com resultados inferiores.
 * Callbacks - Evita o sobretreino da rede (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint)
 * Stratified K-Fold cross validation - As partições são feitas preservando a porcentagem de amostras para cada classe (estratificada). Utilizada para validação do modelo final.
 * Balanceamento da base (removido) - Inicialmente foi feito o balanceamento da base para treinamento, atribuindo pesos a cada classe para evitar qualquer viés por meio de dados não balanceados. Durante os testes de configuração do modelo, a utilização dessa técnica mostrou-se ineficaz, pois diminuiu a performance do modelo na predição utilizando os dados de teste.
