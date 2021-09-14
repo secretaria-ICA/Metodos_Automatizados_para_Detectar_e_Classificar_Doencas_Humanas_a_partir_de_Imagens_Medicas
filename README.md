@@ -19,7 +19,7 @@ Utilização de modelos de inteligência artificial pré-treinados como alternat
 * Avaliação da melhor configuração da rede neural
 
 
-## Descrição dados
+## Descrição dos dados
 O dataset é composto por imagens de Tomografia de Coerência Óptica da Retina (OCT), técnica de imagem usada para capturar seções transversais de alta resolução das retinas. É organizado em 3 diretórios (train, test, val). Cada um desses diretórios contém subdiretórios para cada categoria de imagem (NORMAL, CNV, DME,DRUSEN). São 84,495 imagens (JPEG) e 4 categorias:
 
 * CNV (choroidal neovascularization) - Processo patológico que consiste da formação de novos vasos sanguíneos na COROIDE.
