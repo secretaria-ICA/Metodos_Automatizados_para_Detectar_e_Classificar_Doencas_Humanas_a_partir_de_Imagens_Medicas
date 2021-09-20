@@ -64,7 +64,10 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste.
 
 #### Histórico de treinamento do modelo
+
+Representação gráfica da precisão do treinamento versus perda, para melhor compreensão do treinamento do modelo.
+
 <p align="center">
   <img src="Training and validation accuracy.PNG" alt="Training and Validation Accuracy" width="300"/>
-  <img src="Training and validation accuracy.PNG" alt="Training and Validation Accuracy" width="290"/>
+  <img src="Training and validation accuracy.PNG" alt="Training and Validation Accuracy" width="300"/>
 </p>
