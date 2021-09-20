@@ -48,9 +48,7 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 * Otimizador - O melhor resultado foi obtido com o otimizador SGD, utilizando os parâmetros abaixo:
 
 Learning Rate = 0,045
-
 Decay = Learning Rate/n° de épocas = 0,1/30
-
 Momentum = 0,9
 
 * Indicador de Perda - Foi utilizada a categorical_crossentropy como uma função de perda para classificação multiclasse.
