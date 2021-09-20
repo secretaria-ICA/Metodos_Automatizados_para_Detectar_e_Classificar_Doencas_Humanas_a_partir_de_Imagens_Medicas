@@ -61,8 +61,6 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 
 ### 3. Resultados
 
-O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste.
-
 #### Histórico de treinamento do modelo
 
 Representação gráfica da precisão do treinamento versus perda, para melhor compreensão do treinamento do modelo.
@@ -78,3 +76,7 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
   <img src="Matriz de confusao.PNG" alt="Matriz de Confusão"/>
   <img src="Matriz de confusao normalizada.PNG" alt="Matriz de Confusão Normalizada"/>
 </p>
+
+### 4. Conclusão
+
+O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste.
