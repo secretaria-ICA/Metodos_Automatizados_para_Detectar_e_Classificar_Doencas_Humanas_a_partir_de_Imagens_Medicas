@@ -75,6 +75,6 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
 #### Avaliação do modelo utilizando a base de teste
 
 <p align="center">
-  <img src="Matriz de confusao.PNG" alt="Matriz de Confusão" width="300"/>
-  <img src="Matriz de confusao normalizada.PNG" alt="Matriz de Confusão Normalizada" width="300"/>
+  <img src="Matriz de confusao.PNG" alt="Matriz de Confusão"/>
+  <img src="Matriz de confusao normalizada.PNG" alt="Matriz de Confusão Normalizada"/>
 </p>
