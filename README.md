@@ -2,24 +2,24 @@
 
 Projeto de conclusão do curso [BI-MASTER](https://ica.puc-rio.ai/bi-master/) e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-**Aluna**: [Renata Regina da Fonseca Santos](https://github.com/rrfsantos)
+#### Aluna: [Renata Regina da Fonseca Santos](https://github.com/rrfsantos)
 
-**Orientadora**: Professora Evelyn Conceição
+#### Orientadora: Professora Evelyn Conceição
 
 * [Link para o código]
 
-## Resumo
+### Resumo
 
-Utilização de modelos de inteligência artificial pré-treinados como alternativa para predição de diagnóstico em exames de imagem. 
+A tomografia de coerência óptica da retina (OCT) é uma técnica de imagem usada para capturar seções transversais de alta resolução das retinas de pacientes vivos. Aproximadamente 30 milhões de varreduras de OCT são realizadas a cada ano, e a análise e interpretação dessas imagens levam um tempo significativo (Swanson e Fujimoto, 2017). Utilização de modelos de inteligência artificial pré-treinados como alternativa para predição de diagnóstico em exames de imagem. 
 
-### Itens do trabalho:
+#### Itens do trabalho:
 
 * Análise exploratória dos dados
 * Tratamento dos dados para uso na rede neural
 * Avaliação da melhor configuração da rede neural
 
 
-### Descrição dos dados
+#### Descrição dos dados
 O dataset é composto por imagens de Tomografia de Coerência Óptica da Retina (OCT), técnica de imagem usada para capturar seções transversais de alta resolução das retinas. É organizado em 3 diretórios (train, test, val). Cada um desses diretórios contém subdiretórios para cada categoria de imagem (NORMAL, CNV, DME,DRUSEN). São 84,495 imagens (JPEG) e 4 categorias:
 
 * CNV (choroidal neovascularization) - Processo patológico que consiste da formação de novos vasos sanguíneos na COROIDE.
