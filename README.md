@@ -45,17 +45,13 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 
 * Quantidade de Neurônios das Camadas Densas (Dense) - Foi utilizada somente uma camada densa com quatro neurônios (número de classes) para a classificação das imagens e função de ativação softmax.
 
-* Otimizador - O melhor resultado foi obtido com o otimizador SGD, utilizando os parâmetros abaixo:
-
-Learning Rate = 0,045
-Decay = Learning Rate/n° de épocas = 0,1/30
-Momentum = 0,9
+* Otimizador - O melhor resultado foi obtido com o otimizador SGD, utilizando os parâmetros: Learning Rate = 0,045 / Decay = Learning Rate/n° de épocas = 0,1/30 / Momentum = 0,9.
 
 * Indicador de Perda - Foi utilizada a categorical_crossentropy como uma função de perda para classificação multiclasse.
 
 * Épocas de Treinamento - Foram realizadas simulações com 10, 20 e 30 épocas. O ajuste desse parâmetro evidenciou que são necessárias 30 épocas para obter os melhores resultados.
 
-* Callbacks - Evitam o sobretreino da rede (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint)
+* Callbacks - Evitam o sobretreino da rede (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint).
 
 * Stratified K-Fold cross validation - As partições são feitas preservando a porcentagem de amostras para cada classe (estratificada). Foram utilizadas 3 partições para validação do modelo final.
 
