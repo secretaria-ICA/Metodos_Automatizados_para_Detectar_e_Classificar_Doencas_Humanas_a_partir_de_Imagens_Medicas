@@ -62,3 +62,6 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 ### 3. Resultados
 
 O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste.
+
+![Training and Validation Accuracy](Training and validation accuracy.png)
+![Training and Validation Loss](Training and validation loss.png)
