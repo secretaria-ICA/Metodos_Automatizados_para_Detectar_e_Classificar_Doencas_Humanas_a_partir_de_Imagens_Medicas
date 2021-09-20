@@ -39,6 +39,8 @@ O dataset é composto por imagens de Tomografia de Coerência Óptica da Retina 
 
 Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e configurações abaixo:
 
+* Separação da base em Treino, Validação e Teste: Foi utilizado 25% da base para validação e 10% para teste.
+
 * Data Augmentation - Aumento da quantidade de imagens, adicionando cópias ligeiramente modificadas de imagens já existentes e redimensionamento para o padrão de entrada da rede neural.
 
 * Transfer Learning - RNN Xception pré-treinada com a base de dados "imageNet". Foram feitos testes utilizando as RNN VGG16 e EfficientNet B0 a B7, com resultados inferiores.
@@ -56,3 +58,7 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 * Stratified K-Fold cross validation - As partições são feitas preservando a porcentagem de amostras para cada classe (estratificada). Foram utilizadas 3 partições para validação do modelo final.
 
 * Balanceamento da base (removido) - Inicialmente, foi feito o balanceamento da base para treinamento, atribuindo pesos a cada classe para evitar qualquer viés por meio de dados não balanceados. Durante os testes de validação do modelo, a utilização dessa técnica mostrou-se ineficaz, pois diminuiu a performance na predição utilizando os dados de teste.
+
+### 3. Resultados
+
+O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste.
