@@ -22,6 +22,7 @@ Este trabalho baseou-se na API Keras para a construção da rede neural e no mó
 * Análise exploratória dos dados
 * Tratamento dos dados para uso na rede neural
 * Avaliação da melhor configuração da rede neural
+* Avaliação do modelo utilizando validação cruzada
 
 
 #### Descrição dos dados
