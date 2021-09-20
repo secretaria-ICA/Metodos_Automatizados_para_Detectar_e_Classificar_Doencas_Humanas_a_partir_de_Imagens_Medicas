@@ -54,6 +54,7 @@ Foi utilizada somente uma camada densa com quatro neurônios (número de classes
 * Otimizador
 
 O melhor resultado foi obtido com o otimizador SGD, utilizando os parâmetros abaixo:
+
 Learning Rate = 0,045
 Decay = Learning Rate/n° de épocas = 0,1/30
 Momentum = 0,9
