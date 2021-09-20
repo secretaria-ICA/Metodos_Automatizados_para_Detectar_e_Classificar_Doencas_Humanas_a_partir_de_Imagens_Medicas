@@ -8,7 +8,7 @@ Projeto de conclusão do curso [BI-MASTER](https://ica.puc-rio.ai/bi-master/) e 
 
 * [Link para o código]
 
-## Objetivo
+## Resumo
 
 Utilização de modelos de inteligência artificial pré-treinados como alternativa para predição de diagnóstico em exames de imagem. 
 
