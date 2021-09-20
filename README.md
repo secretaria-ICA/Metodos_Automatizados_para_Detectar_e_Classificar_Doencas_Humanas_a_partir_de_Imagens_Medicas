@@ -50,7 +50,7 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 
 * Otimizador - O melhor resultado foi obtido com o otimizador SGD, utilizando os parâmetros: Learning Rate = 0,045 / Decay = Learning Rate/n° de épocas = 0,1/30 / Momentum = 0,9.
 
-* Indicador de Perda - Foi utilizada a categorical_crossentropy como uma função de perda para classificação multiclasse.
+* Indicador de Perda - Categorical crossentropy ou softmax loss, a rede neural foi treinada para emitir a probabilidade dena imagem pertencer a cada uma das quatros classes.
 
 * Épocas de Treinamento - Foram realizadas simulações com 10, 20 e 30 épocas. O ajuste desse parâmetro evidenciou que são necessárias 30 épocas para obter os melhores resultados.
 
