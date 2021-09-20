@@ -71,3 +71,10 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
   <img src="Training and validation accuracy.PNG" alt="Training and Validation Accuracy" width="300"/>
   <img src="Training and validation loss.PNG" alt="Training and Validation Loss" width="290"/>
 </p>
+
+#### Avaliação do modelo utilizando a base de teste
+
+<p align="center">
+  <img src="Matriz de confusao.PNG" alt="Matriz de Confusão" width="300"/>
+  <img src="Matriz de confusao normalizada.PNG" alt="Matriz de Confusão Normalizada" width="300"/>
+</p>
