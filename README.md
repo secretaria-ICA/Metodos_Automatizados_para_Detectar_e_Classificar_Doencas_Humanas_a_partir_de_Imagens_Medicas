@@ -80,4 +80,10 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
 
 ### 4. Conclusão
 
+#### Relatório de métricas de performance do classificador
+
+<p align="center">
+  <img src="classification report.PNG" alt="Relatório de classificação"/>
+</p>
+
 O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste.
