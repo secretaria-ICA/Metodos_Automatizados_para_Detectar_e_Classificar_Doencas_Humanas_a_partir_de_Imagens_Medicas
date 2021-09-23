@@ -80,6 +80,8 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
 
 #### Relatório de métricas de performance do classificador utilizando os dados de teste
 
+Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o diagnóstico errado prejudicial, principalmente a classificação de retinas com alguma das três anomalias como normais. O classificador está apresentando baixo desempenho ao inferir a classes DRUSEN e DME para essa métrica.
+
 <p align="center">
   <img src="classification report.PNG" alt="Relatório de classificação"/>
 </p>
