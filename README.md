@@ -71,14 +71,14 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
   <img src="Training and validation loss.PNG" alt="Training and Validation Loss" width="300"/>
 </p>
 
-#### Avaliação do modelo utilizando a base de teste
+#### Avaliação do modelo utilizando os dados de teste
 
 <p align="center">
   <img src="Matriz de confusao.PNG" alt="Matriz de Confusão"/>
   <img src="Matriz de confusao normalizada.PNG" alt="Matriz de Confusão Normalizada"/>
 </p>
 
-#### Relatório de métricas de performance do classificador
+#### Relatório de métricas de performance do classificador utilizando os dados de teste
 
 <p align="center">
   <img src="classification report.PNG" alt="Relatório de classificação"/>
