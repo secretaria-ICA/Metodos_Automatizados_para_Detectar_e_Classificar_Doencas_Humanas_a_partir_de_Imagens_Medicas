@@ -78,12 +78,11 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
   <img src="Matriz de confusao normalizada.PNG" alt="Matriz de Confusão Normalizada"/>
 </p>
 
-### 4. Conclusão
-
 #### Relatório de métricas de performance do classificador
 
 <p align="center">
   <img src="classification report.PNG" alt="Relatório de classificação"/>
 </p>
 
+### 4. Conclusão
 O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste.
