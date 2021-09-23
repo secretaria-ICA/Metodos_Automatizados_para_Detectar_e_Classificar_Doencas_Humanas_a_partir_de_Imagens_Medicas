@@ -44,13 +44,13 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 
 * Data Augmentation - Aumento da quantidade de imagens, adicionando cópias ligeiramente modificadas de imagens já existentes e redimensionamento para o padrão de entrada da rede neural.
 
-* Transfer Learning - RNN Xception pré-treinada com a base de dados "imageNet". Foram feitos testes utilizando as RNN VGG16 e EfficientNet B0 a B7, com resultados inferiores.
+* Transfer Learning - RNN Xception pré-treinada com a base de dados "imageNet". Foram feitos testes utilizando as RNN VGG16 e EfficientNet B0 a B7 com resultados inferiores.
 
 * Quantidade de Neurônios das Camadas Densas (Dense) - Foi utilizada somente uma camada densa com quatro neurônios (número de classes) para a classificação das imagens e função de ativação softmax.
 
 * Otimizador - O melhor resultado foi obtido com o otimizador SGD, utilizando os parâmetros: Learning Rate = 0,045 / Decay = Learning Rate/n° de épocas = 0,1/30 / Momentum = 0,9.
 
-* Indicador de Perda - Categorical crossentropy ou softmax loss, a rede neural foi treinada para emitir a probabilidade dena imagem pertencer a cada uma das quatros classes.
+* Indicador de Perda - Categorical crossentropy ou softmax loss, a rede neural foi treinada para emitir a probabilidade de a imagem pertencer a cada uma das quatros classes. Foram feitos testes utilizando sparce categorical crossentropy com resultados inferiores.
 
 * Épocas de Treinamento - Foram realizadas simulações com 10, 20 e 30 épocas. O ajuste desse parâmetro evidenciou que são necessárias 30 épocas para obter os melhores resultados.
 
@@ -58,7 +58,7 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 
 * Stratified K-Fold cross validation - As partições são feitas preservando a porcentagem de amostras para cada classe (estratificada). Foram utilizadas 3 partições para validação do modelo final.
 
-* Balanceamento da base (removido) - Inicialmente, foi feito o balanceamento da base para treinamento, atribuindo pesos a cada classe para evitar qualquer viés por meio de dados não balanceados. Durante os testes de validação do modelo, a utilização dessa técnica mostrou-se ineficaz, pois diminuiu a performance na predição utilizando os dados de teste.
+* Balanceamento da base - Não aumenta as amostras, mas atribui pesos a cada classe para evitar qualquer viés por meio de dados não balanceados (class_weight). O balanceamento da base melhorou a performance do modelo na inferência da classe DRUSEN, que possue o menor número de imagens.
 
 ### 3. Resultados
 
