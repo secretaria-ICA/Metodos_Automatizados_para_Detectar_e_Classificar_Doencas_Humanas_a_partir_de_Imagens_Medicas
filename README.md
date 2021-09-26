@@ -86,5 +86,9 @@ Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o d
   <img src="classification report.PNG">
 </p>
 
+#### Avaliação do modelo utilizando Validação Cruzada
+
+(completar)
+
 ### 4. Conclusão
-O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste.
+O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste. etc. etc ..... (completar)
