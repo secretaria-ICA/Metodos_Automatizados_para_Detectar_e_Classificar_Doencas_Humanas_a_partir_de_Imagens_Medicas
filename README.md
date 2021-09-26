@@ -67,15 +67,15 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 Representação gráfica da precisão do treinamento versus perda, para melhor compreensão do treinamento do modelo.
 
 <p align="center">
-  <img src="Training and validation accuracy.PNG" alt="Training and Validation Accuracy" width="300"/>
-  <img src="Training and validation loss.PNG" alt="Training and Validation Loss" width="300"/>
+  <img src="Training and validation accuracy.PNG" width="300"/>
+  <img src="Training and validation loss.PNG" width="300"/>
 </p>
 
 #### Avaliação do modelo utilizando os dados de teste
 
 <p align="center">
-  <img src="Matriz de confusao.PNG" alt="Matriz de Confusão"/>
-  <img src="Matriz de confusao normalizada.PNG" alt="Matriz de Confusão Normalizada"/>
+  <img src="Matriz de confusao.PNG">
+  <img src="Matriz de confusao normalizada.PNG">
 </p>
 
 #### Relatório de métricas de performance do classificador utilizando os dados de teste
