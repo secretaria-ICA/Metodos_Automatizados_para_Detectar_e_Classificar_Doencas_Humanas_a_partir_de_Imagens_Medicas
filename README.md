@@ -64,12 +64,12 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 
 Representação gráfica da precisão do treinamento versus perda, para melhor compreensão do treinamento do modelo.
 <p align="center">
-<table>
-  <tr>
-    <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/Training_and_validation_accuracy.JPG"/></td>
-    <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/Training_and_validation_loss.JPG"/></td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/Training_and_validation_accuracy.JPG"/></td>
+      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/Training_and_validation_loss.JPG"/></td>
+    </tr>
+  </table>
 </p>
 
 #### Avaliação do modelo utilizando os dados de teste
