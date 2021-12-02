@@ -52,8 +52,6 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 
 * Indicador de Perda - Categorical crossentropy ou softmax loss, a rede neural foi treinada para emitir a probabilidade de a imagem pertencer a cada uma das quatros classes. Foram feitos testes utilizando sparce categorical crossentropy com resultados inferiores.
 
-* Épocas de Treinamento - Foram realizadas simulações com 10, 20 e 30 épocas. O ajuste desse parâmetro evidenciou que são necessárias 30 épocas para obter os melhores resultados.
-
 * Callbacks - Evitam o sobretreino da rede (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint).
 
 * Stratified K-Fold cross validation - As partições são feitas preservando a porcentagem de amostras para cada classe (estratificada). Foram utilizados 5 K-Folds para validação do modelo final.
