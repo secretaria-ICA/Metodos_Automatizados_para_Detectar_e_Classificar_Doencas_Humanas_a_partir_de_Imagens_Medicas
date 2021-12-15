@@ -103,4 +103,10 @@ Recall: De todas as imagens de cada classe, quantas foram rotuladas corretamente
 </p>
 
 ### 4. Conclusão
-O modelo apresentou a mesma performance com a base de teste para os 5 folds, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. Para nosso conjunto de dados, podemos considerar que alcançar um alto recall é mais importante do que obter uma alta precisão, pois devemos considerar o diagnóstico errado prejudicial, principalmente a classificação de retinas com alguma das três anomalias como normais.
+
+Neste estudo, a classificação de OCT foi realizada com modelos de aprendizado profundo. Na primeira etapa do estudo, os dados foram padronizados e, em seguida, usados como entradas para a CNN Xception pré-treinada com os pesos do dataset ImageNet.
+
+Para validação, foi utilizada a técnica de validação cruzada estratificada com 5 folds e a divisão aleatória do dataset em subsets de treino, validação e teste. As duas abordagens apresentaram resultados similares.
+
+O desempenho do modelo foi medido utilizando as métricas: acurácia, precisão e recall. Sendo recall a mais importante para o nosso conjunto de dados, pois devemos considerar o diagnóstico errado prejudicial, principalmente a classificação de uma imagem com uma das três anomalias como uma imagem normal. Apresentou bons resultados para a classificação de imagens das classes NORMAL e CNV e o pior resultado para as imagens da classe DRUSEN. 
+
