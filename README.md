@@ -81,15 +81,13 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
 
 ### Relatório de métricas de performance do classificador utilizando os dados de teste (fold 5)
 
-Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o diagnóstico errado prejudicial, principalmente a classificação de retinas com alguma das três anomalias como normais. O classificador está apresentando baixo desempenho ao inferir as classes DRUSEN e DME para essa métrica.
-
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/classification_report.JPG">
 </p>
 
 ### Avaliação do modelo utilizando Validação Cruzada (Stratified K-Fold)
 
-Accuracy:
+Accuracy: De todas as imagens, quantas foram classificadas corretamente?
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/accuracy.JPG">
 </p>
