@@ -60,7 +60,7 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 
 ### 3. Resultados
 
-#### Métricas de Treinamento (fold 1)
+#### Métricas de Treinamento (fold 5)
 
 Representação gráfica da precisão do treinamento versus perda, para melhor compreensão do treinamento do modelo.
 <table class="center">
