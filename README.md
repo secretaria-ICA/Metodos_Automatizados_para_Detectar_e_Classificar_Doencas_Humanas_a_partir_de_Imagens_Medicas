@@ -72,10 +72,12 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
 
 #### Avaliação do modelo utilizando os dados de teste
 
-<p align="center">
-  <img src="Matriz de confusao.PNG">
-  <img src="Matriz de confusao normalizada.PNG">
-</p>
+<table class="center">
+   <tr>
+      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/Matriz%20de%20confusao.JPG"/></td>
+      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/Matriz%20de%20confusao%20normalizada.JPG"/></td>
+    </tr>
+</table>
 
 #### Relatório de métricas de performance do classificador utilizando os dados de teste
 
