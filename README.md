@@ -8,16 +8,16 @@ Projeto de conclusão do curso [BI-MASTER](https://ica.puc-rio.ai/bi-master/) e 
 
 * [Link para o código]
 
-### Resumo
+## Resumo
 
 A tomografia de coerência óptica da retina (OCT) é uma técnica de imagem usada para capturar seções transversais de alta resolução das retinas de pacientes vivos. Aproximadamente 30 milhões de varreduras de OCT são realizadas a cada ano, e a análise e interpretação dessas imagens levam um tempo significativo (Swanson e Fujimoto, 2017). 
 O objetivo do trabalho é a propor um modelo de inteligência artificial pré-treinado como alternativa para predição de diagnóstico utilizando essas de imagens.
 
-### 1. Introdução
+## 1. Introdução
 
 Este trabalho baseou-se na API Keras para a construção da rede neural e no módulo scikit-learn para validação do treinamento do modelo.
 
-#### Itens do trabalho:
+### Itens do trabalho:
 
 * Análise exploratória dos dados
 * Tratamento dos dados para uso na rede neural
@@ -25,7 +25,7 @@ Este trabalho baseou-se na API Keras para a construção da rede neural e no mó
 * Avaliação do modelo utilizando validação cruzada
 
 
-#### Descrição dos dados
+### Descrição dos dados
 
 O dataset é composto por imagens de Tomografia de Coerência Óptica da Retina (OCT), técnica de imagem usada para capturar seções transversais de alta resolução das retinas. É organizado em 3 diretórios (train, test, val). Cada um desses diretórios contém subdiretórios para cada categoria de imagem (NORMAL, CNV, DME,DRUSEN). São 84,495 imagens (JPEG) e 4 categorias:
 
@@ -36,7 +36,7 @@ O dataset é composto por imagens de Tomografia de Coerência Óptica da Retina 
 
 > Labeled Optical Coherence Tomography (OCT) Images for Classification - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, v2
 
-### 2. Modelagem
+## 2. Modelagem
 
 Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e configurações abaixo:
 
@@ -58,9 +58,9 @@ Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e co
 
 * Balanceamento da base - Não aumenta as amostras, mas atribui pesos a cada classe para evitar qualquer viés por meio de dados não balanceados (class_weight). O balanceamento da base melhorou a performance do modelo na inferência da classe DRUSEN, que possue o menor número de imagens.
 
-### 3. Resultados
+## 3. Resultados
 
-#### Métricas de Treinamento (fold 5)
+### Métricas de Treinamento (fold 5)
 
 Representação gráfica da precisão do treinamento versus perda, para melhor compreensão do treinamento do modelo.
 <table class="center">
@@ -70,7 +70,7 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
     </tr>
 </table>
 
-#### Avaliação do modelo utilizando os dados de teste (fold 5)
+### Avaliação do modelo utilizando os dados de teste (fold 5)
 
 <table class="center">
    <tr>
@@ -79,31 +79,33 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
     </tr>
 </table>
 
-#### Relatório de métricas de performance do classificador utilizando os dados de teste (fold 5)
+### Relatório de métricas de performance do classificador utilizando os dados de teste (fold 5)
 
-Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o diagnóstico errado prejudicial, principalmente a classificação de retinas com alguma das três anomalias como normais. O classificador está apresentando baixo desempenho ao inferir a classes DRUSEN e DME para essa métrica.
+Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o diagnóstico errado prejudicial, principalmente a classificação de retinas com alguma das três anomalias como normais. O classificador está apresentando baixo desempenho ao inferir as classes DRUSEN e DME para essa métrica.
 
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/classification_report.JPG">
 </p>
 
-#### Avaliação do modelo utilizando Validação Cruzada (Stratified K-Fold)
+### Avaliação do modelo utilizando Validação Cruzada (Stratified K-Fold)
 
-
+#### Accuracy
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/accuracy.JPG">
 </p>
 
+#### Precision
 <p align="center">
-Quantas imagens foram rotuladas para uma classe são realmente dessa classe?
+Quantas imagens foram rotuladas para uma classe são realmente dessa classe? O classificador está apresentando baixo desempenho ao inferir a classes DRUSEN e DME para essa métrica.
 </p>
 
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/precision.JPG">
 </p>
 
+#### Recall
 <p align="center">
-De todas as imagens de cada classe, quantas foram rotuladas corretamente?
+De todas as imagens de cada classe, quantas foram rotuladas corretamente? O classificador está apresentando baixo desempenho ao inferir as classes DRUSEN e DME para essa métrica.
 </p>
 
 <p align="center">
