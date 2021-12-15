@@ -70,7 +70,7 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
     </tr>
 </table>
 
-#### Avaliação do modelo utilizando os dados de teste
+#### Avaliação do modelo utilizando os dados de teste (fold 5)
 
 <table class="center">
    <tr>
