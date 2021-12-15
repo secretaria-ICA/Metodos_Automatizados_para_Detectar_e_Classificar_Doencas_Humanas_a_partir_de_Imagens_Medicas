@@ -79,7 +79,7 @@ Representação gráfica da precisão do treinamento versus perda, para melhor c
     </tr>
 </table>
 
-#### Relatório de métricas de performance do classificador utilizando os dados de teste
+#### Relatório de métricas de performance do classificador utilizando os dados de teste (fold 5)
 
 Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o diagnóstico errado prejudicial, principalmente a classificação de retinas com alguma das três anomalias como normais. O classificador está apresentando baixo desempenho ao inferir a classes DRUSEN e DME para essa métrica.
 
@@ -89,7 +89,13 @@ Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o d
 
 #### Avaliação do modelo utilizando Validação Cruzada
 
-(completar)
+<table class="center">
+   <tr>
+      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/accuracy.JPG"/></td>
+      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/precision.JPG"/></td>
+      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/recall.JPG"/></td>
+    </tr>
+</table>
 
 ### 4. Conclusão
 O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste. etc. etc ..... (completar)
