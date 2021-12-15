@@ -92,15 +92,15 @@ Accuracy: De todas as imagens, quantas foram classificadas corretamente?
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/accuracy.JPG">
 </p>
 
-Precision: Quantas imagens foram rotuladas para uma classe, são realmente dessa classe? O classificador está apresentando baixo desempenho ao inferir as classes DRUSEN e DME para essa métrica.
+Precision: Quantas imagens foram rotuladas para uma classe, são realmente dessa classe? O classificador está apresentando baixo desempenho ao inferir a classe DRUSEN para essa métrica.
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/precision.JPG">
 </p>
 
-Recall: De todas as imagens de cada classe, quantas foram rotuladas corretamente? O classificador está apresentando baixo desempenho ao inferir as classes DRUSEN e DME para essa métrica.
+Recall: De todas as imagens de cada classe, quantas foram rotuladas corretamente? O classificador está apresentando um melhor desempenho ao inferir a classe DRUSEN para essa métrica. Para nosso conjunto de dados, podemos considerar que alcançar um melhor recall é mais importante do que obter uma alta precisão.
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/recall.JPG">
 </p>
 
 ### 4. Conclusão
-O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste. etc. etc ..... (completar)
+O modelo apresentou a mesma performance com a base de teste para os 5 folds, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. Para nosso conjunto de dados, podemos considerar que alcançar um alto recall é mais importante do que obter uma alta precisão, pois devemos considerar o diagnóstico errado prejudicial, principalmente a classificação de retinas com alguma das três anomalias como normais.
