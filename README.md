@@ -92,7 +92,7 @@ Accuracy: De todas as imagens, quantas foram classificadas corretamente?
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/accuracy.JPG">
 </p>
 
-Precision: Quantas imagens foram rotuladas para uma classe são realmente dessa classe? O classificador está apresentando baixo desempenho ao inferir a classes DRUSEN e DME para essa métrica.
+Precision: Quantas imagens foram rotuladas para uma classe, são realmente dessa classe? O classificador está apresentando baixo desempenho ao inferir a classes DRUSEN e DME para essa métrica.
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/precision.JPG">
 </p>
