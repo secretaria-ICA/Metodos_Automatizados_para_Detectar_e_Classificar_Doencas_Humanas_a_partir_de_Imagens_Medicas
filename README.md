@@ -89,25 +89,17 @@ Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o d
 
 ### Avaliação do modelo utilizando Validação Cruzada (Stratified K-Fold)
 
-#### Accuracy
+Accuracy:
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/accuracy.JPG">
 </p>
 
-#### Precision
-<p align="center">
-Quantas imagens foram rotuladas para uma classe são realmente dessa classe? O classificador está apresentando baixo desempenho ao inferir a classes DRUSEN e DME para essa métrica.
-</p>
-
+Precision: Quantas imagens foram rotuladas para uma classe são realmente dessa classe? O classificador está apresentando baixo desempenho ao inferir a classes DRUSEN e DME para essa métrica.
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/precision.JPG">
 </p>
 
-#### Recall
-<p align="center">
-De todas as imagens de cada classe, quantas foram rotuladas corretamente? O classificador está apresentando baixo desempenho ao inferir as classes DRUSEN e DME para essa métrica.
-</p>
-
+Recall: De todas as imagens de cada classe, quantas foram rotuladas corretamente? O classificador está apresentando baixo desempenho ao inferir as classes DRUSEN e DME para essa métrica.
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/recall.JPG">
 </p>
