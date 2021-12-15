@@ -87,15 +87,22 @@ Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o d
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/classification_report.JPG">
 </p>
 
-#### Avaliação do modelo utilizando Validação Cruzada
+#### Avaliação do modelo utilizando Validação Cruzada (Stratified K-Fold)
 
-<table class="center">
-   <tr>
-      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/accuracy.JPG"/></td>
-      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/precision.JPG"/></td>
-      <td valign="top"><img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/recall.JPG"/></td>
-    </tr>
-</table>
+##### Accuracy
+<p align="center">
+  <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/accuracy.JPG">
+</p>
+
+##### Precision
+<p align="center">
+  <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/precision.JPG">
+</p>
+
+##### Recall
+<p align="center">
+  <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/recall.JPG">
+</p>
 
 ### 4. Conclusão
 O modelo apresentou a mesma performance com a base de teste, com melhores resultados na classificação de imagens das classes NORMAL e CNV e pior resultado para a classe DRUSEN. com os dados de teste. etc. etc ..... (completar)
