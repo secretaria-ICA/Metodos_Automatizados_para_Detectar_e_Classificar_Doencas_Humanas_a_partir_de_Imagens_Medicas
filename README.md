@@ -89,17 +89,14 @@ Recall deve ser a principal métrica a ser avaliada, pois devemos considerar o d
 
 #### Avaliação do modelo utilizando Validação Cruzada (Stratified K-Fold)
 
-##### Accuracy
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/accuracy.JPG">
 </p>
 
-##### Precision
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/precision.JPG">
 </p>
 
-##### Recall
 <p align="center">
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/recall.JPG">
 </p>
