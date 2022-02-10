@@ -64,7 +64,7 @@ Neste estudo, a classificação de OCT foi realizada com modelos de aprendizado 
    * Redução de dimensionalidade do vetor de características da imagem, utilizando Principal Component Analysis (PCA).
    * Utilização do vetor para entrada em modelos de machine learning sklearn RandomForestClassifier, DecisionTreeClassifier, KNeighborsClassifier e LogisticRegression.
 
-&#9;Essa abordagem mostrou-se muito ineficaz, pois como as imagens são muito semelhantes, todos os modelos apresentaram acurácia de 100%, porém, a matriz de confusão feita    &#9;utilizando os dados de teste apresentou um baixíssimo número de acertos para as classes.
+<pre> Essa abordagem mostrou-se muito ineficaz, pois como as imagens são muito semelhantes, todos os modelos apresentaram acurácia de 100%, porém, a matriz de confusão feita         utilizando os dados de teste apresentou um baixíssimo número de acertos para as classes.</pre>
    
 ## 3. Parâmetros utilizados no modelo final:
 
