@@ -2,9 +2,9 @@
 
 Projeto de conclusão do curso [BI-MASTER](https://ica.puc-rio.ai/bi-master/) e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-#### Aluna: [Renata Regina da Fonseca Santos](https://github.com/rrfsantos)
+### Aluna: [Renata Regina da Fonseca Santos](https://github.com/rrfsantos)
 
-#### Orientadora: Professora Evelyn Conceição
+### Orientadora: Professora Evelyn Conceição
 
 #### Links para o código
 1. Notebook para o download da base, divisão das imagens em 5 folds (treino e validação) e teste. Salva os folds em diretórios no Google Drive:
@@ -130,7 +130,7 @@ Recall: De todas as imagens de cada classe, quantas foram rotuladas corretamente
   <img src="https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/images/recall.JPG">
 </p>
 
-### 5. Conclusão
+## 5. Conclusão
 
 Neste estudo, a classificação de OCT foi realizada com modelos de aprendizado profundo e algumas abordagens foram testadas até que se chegasse ao modelo de melhor performance. Na primeira etapa, os dados foram padronizados e, em seguida, usados como entrada para a CNN Xception pré-treinada com os pesos do dataset ImageNet. 
 
