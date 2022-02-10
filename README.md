@@ -50,28 +50,29 @@ O dataset é composto por imagens de Tomografia de Coerência Óptica da Retina 
 
 ## 2. Modelagem
 
-Neste estudo, a classificação de OCT foi realizada com modelos de aprendizado profundo e algumas abordagens foram testadas até que se chegasse ao modelo de melhor performance, CNN Xception pré-treinada com os pesos do dataset ImageNet:
+Neste estudo, a classificação de OCT foi realizada com modelos de aprendizado profundo e algumas abordagens foram testadas até que se chegasse ao modelo de melhor performance:
 
-I.	CNN VGG16 pré-treinada para extração de características das imagens:
+2.1. Transfer Learning utilizando CNN VGG16 pré-treinada com a base de dados "imageNet": apresentou resultado, aproximadamente, 10% inferior ao do modelo final.
 
-•	CNN VGG16 pré-treinada para extração de vetor de características de cada imagem
-•	Redução de dimensionalidade do vetor de características da imagem utilizando Principal Component Analysis (PCA).
-•	Entrada em modelos de machine learning RandomForestClassifier, DecisionTreeClassifier, KNeighborsClassifier e LogisticRegression
+2.2. Transfer Learning utilizando CNN Xception pré-treinada com os pesos do dataset ImageNet: apresentou o melhor resultado.
 
-   Essa abordagem mostrou-se muito ineficaz, pois como as imagens são muito semelhantes, todos os modelos apresentaram acurácia de 100%, porém a matriz de confusão feita utilizando os dados de teste apresentou um baixíssimo número de acertos nas classes.
+2.3. Transfer Learning utilizando CNN EfficientNet B0 a B7 pré-treinadas com a base de dados "imageNet": apresentaram resultados muito inferiores ao do modelo final.
+
+2.4. CNN VGG16 pré-treinada para extração de características das imagens:
+
+   •	CNN VGG16 pré-treinada para extração de vetor de características de cada imagem
+   •	Redução de dimensionalidade do vetor de características da imagem utilizando Principal Component Analysis (PCA).
+   •	Entrada em modelos de machine learning RandomForestClassifier, DecisionTreeClassifier, KNeighborsClassifier e LogisticRegression
+
+Essa abordagem mostrou-se muito ineficaz, pois como as imagens são muito semelhantes, todos os modelos apresentaram acurácia de 100%, porém a matriz de confusão feita utilizando os dados de teste apresentou um baixíssimo número de acertos nas classes.
    
-II. Transfer Learning, utilizando CNN VGG16 pré-treinada com a base de dados "imageNet" apresentou resultados, aproximadamente, 10% inferiores ao do modelo final.
-
-III. Transfer Learning, utilizando CNN EfficientNet B0 a B7 pré-treinadas com a base de dados "imageNet" apresentaram resultados muito inferiores ao do modelo final
-
-
-Foram realizadas dezenas de simulações do modelo, utilizando as técnicas e configurações abaixo:
+Parâmetros utilizados no modelo final - Transfer Learning utilizando CNN Xception pré-treinada com os pesos do dataset ImageNet:
 
 * Separação da base em Treino, Validação e Teste: Foi utilizado 25% da base para validação e 10% para teste.
 
 * Data Augmentation - Aumento da quantidade de imagens, adicionando cópias ligeiramente modificadas de imagens já existentes e redimensionamento para o padrão de entrada da rede neural.
 
-* Transfer Learning - RNN Xception pré-treinada com a base de dados "imageNet". Foram feitos testes utilizando as RNN VGG16 e EfficientNet B0 a B7 com resultados inferiores.
+* Transfer Learning - RNN Xception pré-treinada com a base de dados "imageNet".
 
 * Quantidade de Neurônios das Camadas Densas (Dense) - Foi utilizada somente uma camada densa com quatro neurônios (número de classes) para a classificação das imagens e função de ativação softmax.
 
