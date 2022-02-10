@@ -7,7 +7,15 @@ Projeto de conclusão do curso [BI-MASTER](https://ica.puc-rio.ai/bi-master/) e 
 #### Orientadora: Professora Evelyn Conceição
 
 #### Links para o código
-1. Divide as imagens em k-folds (treino e validação) e teste, e salva em diretórios no Google Drive https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/OCT2017_pre_processamento_split_StratifiedKFold.ipynb
+1. Divide as imagens em 5 folds (treino e validação) e teste, e salva em diretórios no Google Drive:
+   https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/OCT2017_pre_processamento_split_StratifiedKFold.ipynb.
+
+2. Treinamento e avaliação da Rede Neural para cada fold:
+   https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/OCT2017_Xception_classifier_kfold1.ipynb
+   https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/OCT2017_Xception_classifier_kfold2.ipynb
+   https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/OCT2017_Xception_classifier_kfold3.ipynb
+   https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/OCT2017_Xception_classifier_kfold4.ipynb
+   https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/OCT2017_Xception_classifier_kfold5.ipynb
 
 ## Resumo
 
