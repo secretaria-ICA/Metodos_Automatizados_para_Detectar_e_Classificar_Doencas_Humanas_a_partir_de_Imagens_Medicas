@@ -72,7 +72,7 @@ Neste estudo, a classificação de OCT foi realizada com modelos de aprendizado 
 
 * Data Augmentation - Aumento da quantidade de imagens, adicionando cópias ligeiramente modificadas de imagens já existentes e redimensionamento para o padrão de entrada da rede neural.
 
-* Transfer Learning - RNN Xception pré-treinada com a base de dados "imageNet".
+* Transfer Learning - CNN Xception pré-treinada com a base de dados "imageNet".
 
 * Quantidade de Neurônios das Camadas Densas (Dense) - Foi utilizada somente uma camada densa com quatro neurônios (número de classes) para a classificação das imagens e função de ativação softmax.
 
