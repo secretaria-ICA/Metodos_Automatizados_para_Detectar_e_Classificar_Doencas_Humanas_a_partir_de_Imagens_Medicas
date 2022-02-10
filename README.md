@@ -132,7 +132,7 @@ Recall: De todas as imagens de cada classe, quantas foram rotuladas corretamente
 
 ### 5. Conclusão
 
-Neste estudo, a classificação de OCT foi realizada com modelos de aprendizado profundo. Na primeira etapa, os dados foram padronizados e, em seguida, usados como entradas para a CNN Xception pré-treinada com os pesos do dataset ImageNet. 
+Neste estudo, a classificação de OCT foi realizada com modelos de aprendizado profundo e algumas abordagens foram testadas até que se chegasse ao modelo de melhor performance. Na primeira etapa, os dados foram padronizados e, em seguida, usados como entrada para a CNN Xception pré-treinada com os pesos do dataset ImageNet. 
 
 Para validação, foi utilizada a técnica de validação cruzada estratificada com 5 folds e a divisão aleatória do dataset em subsets de treino, validação e teste. As duas abordagens apresentaram resultados similares.
 
