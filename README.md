@@ -60,13 +60,13 @@ Neste estudo, a classificação de OCT foi realizada com modelos de aprendizado 
 
 2.4. CNN VGG16 pré-treinada para extração de características das imagens:
 
-   * CNN VGG16 pré-treinada para extração de vetor de características de cada imagem
-   * Redução de dimensionalidade do vetor de características da imagem utilizando Principal Component Analysis (PCA).
-   * Entrada em modelos de machine learning RandomForestClassifier, DecisionTreeClassifier, KNeighborsClassifier e LogisticRegression
+   * CNN VGG16 pré-treinada para extração de vetor de características de cada imagem.
+   * Redução de dimensionalidade do vetor de características da imagem, utilizando Principal Component Analysis (PCA).
+   * Entrada em modelos de machine learning sklearn RandomForestClassifier, DecisionTreeClassifier, KNeighborsClassifier e LogisticRegression.
 
-Essa abordagem mostrou-se muito ineficaz, pois como as imagens são muito semelhantes, todos os modelos apresentaram acurácia de 100%, porém a matriz de confusão feita utilizando os dados de teste apresentou um baixíssimo número de acertos nas classes.
+  Essa abordagem mostrou-se muito ineficaz, pois como as imagens são muito semelhantes, todos os modelos apresentaram acurácia de 100%, porém a matriz de confusão feita    utilizando os dados de teste apresentou um baixíssimo número de acertos para as classes.
    
-Parâmetros utilizados no modelo final - Transfer Learning utilizando CNN Xception pré-treinada com os pesos do dataset ImageNet:
+## 3. Parâmetros utilizados no modelo final:
 
 * Separação da base em Treino, Validação e Teste: Foi utilizado 25% da base para validação e 10% para teste.
 
