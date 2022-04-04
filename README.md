@@ -1,10 +1,10 @@
-# Métodos automatizados para detectar e classificar doenças humanas a partir de imagens médicas
+# Métodos_Automatizados_para_Detectar_e_Classificar_Doenças_Humanas_a_partir_de_Imagens_Médicas
 
 Projeto de conclusão do curso [BI-MASTER](https://ica.puc-rio.ai/bi-master/) e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
 #### Aluna: [Renata Regina da Fonseca Santos](https://github.com/rrfsantos)
 
-#### Orientadora: Professora Evelyn Conceição
+#### Orientadora: [Professora Evelyn Conceição](https://github.com/evysb)
 
 #### Links para o código
 1. [Notebook para o download da base, divisão das imagens em 5 folds (treino e validação) e teste. Salva os folds em diretórios no Google Drive.](https://github.com/rrfsantos/Projeto-Redes-Neurais-OCT-Images/blob/main/OCT2017_pre_processamento_split_StratifiedKFold.ipynb)
@@ -138,3 +138,8 @@ Para validação, foi utilizada a técnica de validação cruzada estratificada 
 
 O desempenho do modelo foi medido utilizando as métricas: acurácia, precisão e recall. Sendo recall a mais importante para o nosso conjunto de dados, pois devemos considerar o diagnóstico errado prejudicial, principalmente a classificação de uma imagem com uma das três anomalias como uma imagem normal. Apresentou bons resultados para a classificação de imagens das classes NORMAL e CNV e o pior resultado para as imagens da classe DRUSEN. 
 
+---
+
+Pontifícia Universidade Católica do Rio de Janeiro
+
+Curso de Pós Graduação *Business Intelligence Master*
